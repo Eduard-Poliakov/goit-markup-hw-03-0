@@ -1,0 +1,240 @@
+:root {
+  --primary-color: #212121;
+  --secondary-color: #757575;
+  --akcent-color: #2196f3;
+  --primary-background-color: #e5e5e5;
+}
+
+/* bolt (700) normal (400) 500 900 roboto
+Raleway bolt (700) */
+/* Общие настройки */
+
+body {
+  color: var(--primary-color);
+  background-color: var(--primary-background-color);
+  font-family: roboto, sans-serif;
+  letter-spacing: 0.03em;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: var(--akcent-color);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+/* Шапка */
+
+.header {
+  background-color: #ffffff;
+}
+
+/* Логотип */
+
+.logo {
+  color: var(--primary-color);
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.logo span {
+  color: var(--akcent-color);
+}
+
+/* Навигация*/
+
+.nav .link {
+  color: var(--primary-color);
+}
+.nav .link:focus,
+.nav .link:hover {
+  color: var(--akcent-color);
+}
+.nav .link-current {
+  color: var(--akcent-color);
+}
+
+.nav {
+  letter-spacing: 0.02em;
+}
+.link-tel {
+  color: var(--secondary-color);
+}
+
+.nav .link-tel:hover,
+.nav .link-tel:focus {
+  color: var(--akcent-color);
+}
+
+/* Кнопка заказ услуги */
+
+.button {
+  color: #ffffff;
+  background-color: #2196f3;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.15;
+  letter-spacing: 0.06em;
+}
+
+/* Особенности */
+
+.features h2 {
+  font-size: 0px;
+}
+
+.features h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.features p {
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--secondary-color);
+}
+
+/* Род занятий */
+
+.occupation h3 {
+  color: #ffffff;
+  background-color: rgba(47, 48, 58, 0.8);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+/* Команда */
+
+.team h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team p {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--secondary-color);
+}
+
+section.team {
+  background-color: #f5f4fa;
+}
+
+/* Клиенты */
+/* .customer; */
+
+/* Подвал */
+
+footer.footer {
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+}
+
+.footer-logo span {
+  color: var(--akcent-color);
+}
+
+.address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.mail {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+.footer b {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.footer p {
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+
+/* Портфолио */
+
+.portfolio h1 {
+  font-size: 0px;
+}
+
+.portfolio h2 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-color);
+  text-align: left;
+}
+.portfolio p {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+
+.portfolio .text {
+  font-size: 0px;
+}
+
+.portfolio .button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--primary-color);
+  background-color: #f5f4fa;
+}
+
+.portfolio .button:hover,
+.portfolio .button:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
