@@ -55,6 +55,7 @@ h2 {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
+  text-transform: capitalize;
 }
 
 .logo span {
@@ -75,8 +76,12 @@ h2 {
 }
 
 .nav {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
   letter-spacing: 0.02em;
 }
+
 .link-tel {
   color: var(--secondary-color);
 }
@@ -160,6 +165,7 @@ footer.footer {
   font-weight: 700;
   font-size: 22px;
   line-height: 1.18;
+  text-transform: capitalize;
 }
 
 .footer-logo span {
