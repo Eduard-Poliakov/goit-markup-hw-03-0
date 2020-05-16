@@ -64,6 +64,9 @@ h2 {
 /* Навигация*/
 
 .nav .link {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--primary-color);
 }
 .nav .link:focus,
@@ -81,20 +84,46 @@ h2 {
   letter-spacing: 0.02em;
 }
 
-.link-tel {
+.nav .style + .style {
+  margin-left: 50px;
+}
+
+.link-contact {
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: var(--secondary-color);
 }
 
-.nav .link-tel:hover,
-.nav .link-tel:focus {
+ul.nav {
+  padding-left: 0;
+  margin-left: 86px;
+  display: flex;
+}
+
+div.contact {
+  margin-left: auto;
+}
+
+div.style-header {
+  display: flex;
+  align-items: center;
+}
+
+.nav .link-contact:hover,
+.nav .link-contact:focus {
   color: var(--akcent-color);
 }
 
 /* Герой */
 
+.hero {
+  text-align: center;
+}
+
 h1 {
-  margin-top: 200px;
-  margin-bottom: 0;
+  margin-top: 0px;
+  margin-bottom: 46px;
 
   color: #ffffff;
   background-color: var(--akcent-color);
@@ -110,7 +139,6 @@ h1 {
 /* Кнопка заказ услуги */
 
 .button {
-  margin-top: 46px;
   color: #ffffff;
   background-color: #2196f3;
   font-weight: 700;
@@ -125,7 +153,9 @@ h1 {
 /* Особенности */
 
 .features h2 {
-  font-size: 0px;
+  font-size: 0;
+  margin-top: 0;
+  margin-bottom: 94px;
 }
 
 .features h3 {
@@ -133,23 +163,28 @@ h1 {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
-  margin-top: 30px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 10;
 }
 
 .features p {
   font-size: 14px;
   line-height: 1.71;
   color: var(--secondary-color);
-  margin-top: 10px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 94px;
 }
 
 /* Род занятий */
 
 .occupation h2 {
-  margin-top: 94px;
-  margin-bottom: 0;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.occupation ul {
+  display: inline-block;
+  margin-top: 50;
 }
 
 .occupation h3 {
@@ -159,9 +194,16 @@ h1 {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
+  margin-top: 27px;
+  margin-bottom: 27px;
 }
 
 /* Команда */
+
+.team h2 {
+  margin-top: 94;
+  margin-bottom: 0;
+}
 
 .team h3 {
   font-weight: 500;
