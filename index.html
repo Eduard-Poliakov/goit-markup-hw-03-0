@@ -8,150 +8,167 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
     <header class="header">
-      <nav>
-        <a href="./index.html" class="logo"> <span>web</span> studio </a>
+      <div class="container">
+        <nav>
+          <a href="./index.html" class="logo"> <span>web</span> studio </a>
+          <ul class="nav">
+            <li><a href="./index.html" class="link link-current">Студия</a></li>
+            <li><a href="./portfolio.html" class="link">Портфолио</a></li>
+            <li><a href="#" class="link">Контакты</a></li>
+          </ul>
+        </nav>
         <ul class="nav">
-          <li><a href="./index.html" class="link link-current">Студия</a></li>
-          <li><a href="./portfolio.html" class="link">Портфолио</a></li>
-          <li><a href="#" class="link">Контакты</a></li>
+          <li>
+            <a href="mailto:info@devstudio.com" class="link"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a href="tel:+380961111111" class="link-tel">+38-096-111-11-11</a>
+          </li>
         </ul>
-      </nav>
-      <ul class="nav">
-        <li>
-          <a href="mailto:info@devstudio.com" class="link"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li>
-          <a href="tel:+38-096-111-11-11" class="link-tel">+38-096-111-11-11</a>
-        </li>
-      </ul>
+      </div>
     </header>
     <main>
       <!-- Главный банер -->
       <section>
-        <h1>эффективные решения для вашего бизнеса</h1>
+        <div class="container">
+          <h1>эффективные решения для вашего бизнеса</h1>
+          <button type="button" class="button">Заказать услугу</button>
+        </div>
         <img
           src="./images/hero.png"
           alt="главный банер"
           width="1600"
           height="600"
         />
-        <button type="button" class="button">Заказать услугу</button>
       </section>
       <!-- Особенности -->
       <section class="features">
-        <h2>Особенности</h2>
-        <ul>
-          <li>
-            <h3>Внимание к деталям</h3>
-            <p>
-              Идейные соображения, а также начало повседневной работы по
-              формированию позиции.
-            </p>
-            <img
-              src="./images/antenna.svg"
-              alt="антена"
-              width="278"
-              height="120"
-            />
-          </li>
-          <li>
-            <h3>Пунктуальность</h3>
-            <p>
-              Задача организации, в особенности же рамки и место обучения кадров
-              влечет за собой.
-            </p>
-            <img src="./images/clock.svg" alt="часы" width="278" height="120" />
-          </li>
-          <li>
-            <h3>Планирование</h3>
-            <p>
-              Равным образом консультация с широким активом в значительной
-              степени обуславливает.
-            </p>
-            <img
-              src="./images/diagram.svg"
-              alt="диаграмма"
-              width="278"
-              height="120"
-            />
-          </li>
-          <li>
-            <h3>Современные технологии</h3>
-            <p>
-              Значимость этих проблем настолько очевидна, что реализация
-              плановых заданий.
-            </p>
-            <img
-              src="./images/astronaut.svg"
-              alt="астронавт"
-              width="278"
-              height="120"
-            />
-          </li>
-        </ul>
+        <div class="container">
+          <h2>Особенности</h2>
+          <ul>
+            <li>
+              <img
+                src="./images/antenna.svg"
+                alt="антена"
+                width="278"
+                height="120"
+              />
+              <h3>Внимание к деталям</h3>
+              <p>
+                Идейные соображения, а также начало повседневной работы по
+                формированию позиции.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./images/clock.svg"
+                alt="часы"
+                width="278"
+                height="120"
+              />
+              <h3>Пунктуальность</h3>
+              <p>
+                Задача организации, в особенности же рамки и место обучения
+                кадров влечет за собой.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./images/diagram.svg"
+                alt="диаграмма"
+                width="278"
+                height="120"
+              />
+              <h3>Планирование</h3>
+              <p>
+                Равным образом консультация с широким активом в значительной
+                степени обуславливает.
+              </p>
+            </li>
+            <li>
+              <img
+                src="./images/astronaut.svg"
+                alt="астронавт"
+                width="278"
+                height="120"
+              />
+              <h3>Современные технологии</h3>
+              <p>
+                Значимость этих проблем настолько очевидна, что реализация
+                плановых заданий.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Род занятий -->
       <section class="occupation">
-        <h2>Чем мы занимаемся</h2>
-        <ul>
-          <li>
-            <h3>Десктопные приложения</h3>
-            <a href="#"
-              ><img
-                src="./images/box1.png"
-                alt="Десктопные приложения"
-                width="380"
-                height="294"
-            /></a>
-          </li>
-          <li>
-            <h3>Мобильные приложения</h3>
-            <a href="#"
-              ><img
-                src="./images/box2.png"
-                alt="Мобильные приложения"
-                width="380"
-                height="294"
-            /></a>
-          </li>
-          <li>
-            <h3>Дизайнерские решения</h3>
-            <a href="#"
-              ><img
-                src="./images/box3.png"
-                alt="Дизайнерские решения"
-                width="380"
-                height="294"
-            /></a>
-          </li>
-        </ul>
+        <div class="container">
+          <h2>Чем мы занимаемся</h2>
+          <ul>
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/box1.png"
+                  alt="Десктопные приложения"
+                  width="380"
+                  height="294"
+              /></a>
+              <h3>Десктопные приложения</h3>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/box2.png"
+                  alt="Мобильные приложения"
+                  width="380"
+                  height="294"
+              /></a>
+              <h3>Мобильные приложения</h3>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./images/box3.png"
+                  alt="Дизайнерские решения"
+                  width="380"
+                  height="294"
+              /></a>
+              <h3>Дизайнерские решения</h3>
+            </li>
+          </ul>
+        </div>
       </section>
       <!-- Команда разработчиков -->
       <section class="team">
         <h2>Наша команда</h2>
         <ul>
           <li>
-            <h3>John Smith</h3>
-            <p>Product Designer</p>
-            <a href="#"
-              ><img
+            <a href="#">
+              <img
                 src="./images/john_smith.png"
                 alt="John Smith"
                 width="278"
                 height="260"
-            /></a>
+              />
+            </a>
+            <h3>John Smith</h3>
+            <p>Product Designer</p>
             <ul>
               <li>
-                <a href="https://www.instagram.com"
-                  ><img
+                <a href="https://www.instagram.com">
+                  <img
                     src="./images/instagram.svg"
                     alt="иконка инстаграм"
                     width="44"
@@ -159,8 +176,8 @@
                 /></a>
               </li>
               <li>
-                <a href="https://www.twitter.com"
-                  ><img
+                <a href="https://www.twitter.com">
+                  <img
                     src="./images/twitter.svg"
                     alt="иконка твитер"
                     width="44"
@@ -168,17 +185,18 @@
                 /></a>
               </li>
               <li>
-                <a href="https://www.facebook.com"
-                  ><img
+                <a href="https://www.facebook.com">
+                  <img
                     src="./images/facebook.svg"
                     alt="иконка фейсбук"
                     width="44"
                     height="44"
-                /></a>
+                  />
+                </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com"
-                  ><img
+                <a href="https://www.linkedin.com">
+                  <img
                     src="./images/linkedin.svg"
                     alt="иконка линкедин"
                     width="44"
@@ -188,8 +206,6 @@
             </ul>
           </li>
           <li>
-            <h3>Marta Stewart</h3>
-            <p>Frontend Developer</p>
             <a href="#"
               ><img
                 src="./images/marta_stewart.png"
@@ -197,6 +213,8 @@
                 width="278"
                 height="260"
             /></a>
+            <h3>Marta Stewart</h3>
+            <p>Frontend Developer</p>
             <ul>
               <li>
                 <a href="https://www.instagram.com"
@@ -237,8 +255,6 @@
             </ul>
           </li>
           <li>
-            <h3>Robert Jakis</h3>
-            <p>Marketing</p>
             <a href="#"
               ><img
                 src="./images/robert_jakis.png"
@@ -246,6 +262,8 @@
                 width="278"
                 height="260"
             /></a>
+            <h3>Robert Jakis</h3>
+            <p>Marketing</p>
             <ul>
               <li>
                 <a href="https://www.instagram.com"
@@ -285,8 +303,6 @@
             </ul>
           </li>
           <li>
-            <h3>Martin Doe</h3>
-            <p>UI Designer</p>
             <a href="#"
               ><img
                 src="./images/martin_doe.png"
@@ -294,6 +310,8 @@
                 width="278"
                 height="260"
             /></a>
+            <h3>Martin Doe</h3>
+            <p>UI Designer</p>
             <ul>
               <li>
                 <a href="https://www.instagram.com"
@@ -405,7 +423,7 @@
             <a class="mail" href="mailto:info@example.com">info@example.com</a>
           </li>
           <li>
-            <a class="tel" href="tel:+38-099-111-11-11">+38-099-111-11-11</a>
+            <a class="tel" href="tel:+380991111111">+38-099-111-11-11</a>
           </li>
         </ul>
       </address>
