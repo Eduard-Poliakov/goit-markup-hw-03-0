@@ -51,6 +51,7 @@ h2 {
 
 .logo {
   color: var(--primary-color);
+
   font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 26px;
@@ -68,8 +69,10 @@ h2 {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
+
   color: var(--primary-color);
 }
+
 .nav .link:focus,
 .nav .link:hover {
   color: var(--akcent-color);
@@ -425,6 +428,7 @@ address li:last-child {
 
 .portfolio h1 {
   font-size: 0px;
+  margin: 0;
 }
 
 .portfolio h2 {
@@ -434,16 +438,23 @@ address li:last-child {
   letter-spacing: 0.06em;
   color: var(--primary-color);
   text-align: left;
+  margin-top: 20px;
+  margin-bottom: 0;
+  margin-left: 24px;
 }
 .portfolio p {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  margin-top: 4px;
+  margin-bottom: 0;
+  margin-left: 24px;
 }
 
 .portfolio .text {
   font-size: 0px;
+  margin: 0;
 }
 
 .portfolio .button {
@@ -458,4 +469,65 @@ address li:last-child {
 .portfolio .button:focus {
   color: #ffffff;
   background-color: #2196f3;
+}
+
+section.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--primary-background-color);
+}
+
+ul.choice {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  margin-bottom: 50px;
+}
+
+.choice li + li {
+  margin-left: 8px;
+}
+
+.choice-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  background: #f5f4fa;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
+.choice-button:hover,
+.choice-button:focus {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+  background: var(--akcent-color);
+  color: #ffffff;
+  border-radius: 4px;
+  padding: 6px 22px;
+}
+
+ul.choice-card {
+  display: flex;
+  padding-left: 0;
+  flex-wrap: wrap;
+}
+
+.choice-card li {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding-bottom: 20px;
+}
+
+.choice-card li:nth-child(3n) {
+  margin-right: 0;
+}
+
+.choice-card li:nth-last-child(-n + 3) {
+  margin-bottom: 0;
 }
